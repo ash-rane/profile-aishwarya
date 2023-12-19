@@ -19,17 +19,22 @@
         }
         ul,p{
             color: #e9e0e0d8;
-            list-style-type:square;
         }
-        #listEx{
+        /* #listEx{
             color: rgb(5, 157, 184);
             list-style:square;
             background-color: rgb(53, 53, 48);
             font-style: italic;
             font-weight: bold; 
-        }      
+        }       */
         li{
-          padding: 10px;
+          padding: 10px;     
+        }
+        #Job li{
+          list-style-type: none;
+        }
+        #Job li::before{
+          content: "👍";
         }
     </style>
   </head>
@@ -42,13 +47,13 @@
 
     <h1 class="carrer"><strong>Professional Summery :</strong></h1>
 
-    <ul>
+    <ul id="Job">
       <li>
         Having 5 years experience in developing single page Web Applications
         using <span id="angular">Angular 8</span>,HTML5,CSS3,Bootstrap5,JavaScript
       </li>
 
-      <li id="listEx">
+      <li >
         Experience on working with version control system - GIT and GitHub
       </li>
       <li>Experience working with JIRA for user stories and bug tracking.</li>
