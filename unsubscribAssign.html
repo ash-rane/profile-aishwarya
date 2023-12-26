@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Unsubsscribed</title>
+    <style>
+        body{
+            margin-left: 10px;
+            /* background-image: url(Images/lake.jpg);
+            background-size: cover; */
+        }
+        .container{
+            height: 190px;
+            width: 310px;
+            background-color: rgb(74, 168, 212);
+            color: #f7eeee;
+            border-radius: 7px;
+            padding: 5px;
+            /* font-family: 'Itim', cursive; */
+            /* font-family: 'Montserrat', sans-serif; */
+             /* font-family: 'Poppins', sans-serif; */
+            /* font-family: 'Roboto', sans-serif; */
+        }
+        #star{
+            color: red;
+        }
+        .emailbox{
+            margin-top: 10px;
+        }
+        #email{
+            border-radius: 6px ;
+            border: none;
+            background-color: #f3e8e8;
+            height: 30px;
+        }
+        #unsubBox{
+            border-radius: 6px ;
+            border: none;
+            background-color: #f3e8e8;
+            height: 50px;
+            font-family: sans-serif;
+        }
+        #btn{
+            margin-left: 220px;
+            padding: 10px;
+            background-color: #f3e8e8;
+            border-style: hidden;
+            border-radius: 10px;
+            font-family: sans-serif;
+        }
+        .main{
+            background-color: white;
+            margin-left: 550px;
+        }
+              </style>
+</head>
+
+<body>
+    <div class="main">
+    <h1>Subscriber</h1>
+    <hr>
+    <div class="container">
+        <p>We're sorry to see you go,but hey,no hard feelings,hopefully we will see you back <br>one day.<br>
+        please fill in your email address in order to<br> unsubscribed from the list.<br>You will receive an email to 
+        confirm your<br> unsubscription, 
+        just to make sure this is<br> not an accident or somebody else tries to<br>unsubscribe you.</p>  
+    </div>
+    <div class="emailbox">
+    <lable><b>Email</b> <span id="star">*</span></lable>
+    <p><input type="email" id="email" size="40px"  required></p>
+</div>
+
+<div>
+    <lable><b>Unsubscrib reason</b></lable>
+    <p><input type="text" id="unsubBox" width="50px" size="40px" placeholder="Unsubscribe reason"></p>
+</div>
+<hr>
+<button id="btn" type="submit">Unsubscrib</button>
+</div>
+</body>
+</html>
