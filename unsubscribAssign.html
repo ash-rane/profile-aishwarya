@@ -1,85 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@700&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Unsubsscribed</title>
     <style>
-        body{
-            margin-left: 10px;
-            /* background-image: url(Images/lake.jpg);
-            background-size: cover; */
-        }
-        .container{
-            height: 190px;
-            width: 310px;
-            background-color: rgb(74, 168, 212);
-            color: #f7eeee;
-            border-radius: 7px;
-            padding: 5px;
-            /* font-family: 'Itim', cursive; */
-            /* font-family: 'Montserrat', sans-serif; */
-             /* font-family: 'Poppins', sans-serif; */
-            /* font-family: 'Roboto', sans-serif; */
-        }
-        #star{
-            color: red;
-        }
-        .emailbox{
-            margin-top: 10px;
-        }
-        #email{
-            border-radius: 6px ;
-            border: none;
-            background-color: #f3e8e8;
-            height: 30px;
-        }
-        #unsubBox{
-            border-radius: 6px ;
-            border: none;
-            background-color: #f3e8e8;
-            height: 50px;
-            font-family: sans-serif;
-        }
-        #btn{
-            margin-left: 220px;
-            padding: 10px;
-            background-color: #f3e8e8;
-            border-style: hidden;
-            border-radius: 10px;
-            font-family: sans-serif;
-        }
-        .main{
-            background-color: white;
-            margin-left: 550px;
-        }
-              </style>
-</head>
+      body {
+        margin-left: 20px;
+        background-image: url(Assets/Images/bck.jpeg);
+        background-size: cover;
+      }
+      .container {
+        height: 200px;
+        width: 300px;
+        background-color: rgb(74, 168, 212);
+        color: #f7eeee;
+        border-radius: 7px;
+        padding: 5px;
+        margin-left: 7px;
+        /* font-family: 'Itim', cursive; */
+        /* font-family: 'Montserrat', sans-serif; */
+        /* font-family: 'Poppins', sans-serif; */
+        /* font-family: 'Roboto', sans-serif; */
+      }
+      #star {
+        color: red;
+      }
+      .emailbox {
+        margin-top: 14px;
+        margin-left: 5px;
+      }
+      #email {
+        border-radius: 6px;
+        border: none;
+        background-color: #f3e8e8;
+        height: 30px;
+        margin-left: 7px;
+      }
+      #unsubBox {
+        border-radius: 6px;
+        border: none;
+        background-color: #f3e8e8;
+        height: 50px;
+        font-family: sans-serif;
+        margin-left: 7px;
+      }
+      #btn {
+        margin-left: 220px;
+        padding: 10px;
+        background-color: #f3e8e8;
+        border-style: hidden;
+        border-radius: 10px;
+        font-family: sans-serif;
+      }
+      .main {
+        background-color: white;
+        height: 550px;
+        width: 330px;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-left: 550px;
+      }
+      #para {
+        margin-left: 10px;
+      }
+      .hr,
+      .hr1 {
+        width: 100%;
+      }
+      .unsub{
+        margin-left: 7px;
+      }
+    </style>
+  </head>
 
-<body>
+  <body>
     <div class="main">
-    <h1>Subscriber</h1>
-    <hr>
-    <div class="container">
-        <p>We're sorry to see you go,but hey,no hard feelings,hopefully we will see you back <br>one day.<br>
-        please fill in your email address in order to<br> unsubscribed from the list.<br>You will receive an email to 
-        confirm your<br> unsubscription, 
-        just to make sure this is<br> not an accident or somebody else tries to<br>unsubscribe you.</p>  
-    </div>
-    <div class="emailbox">
-    <lable><b>Email</b> <span id="star">*</span></lable>
-    <p><input type="email" id="email" size="40px"  required></p>
-</div>
+      <h1>Subscriber</h1>
+      <div class="hr"><hr /></div>
 
-<div>
-    <lable><b>Unsubscrib reason</b></lable>
-    <p><input type="text" id="unsubBox" width="50px" size="40px" placeholder="Unsubscribe reason"></p>
-</div>
-<hr>
-<button id="btn" type="submit">Unsubscrib</button>
-</div>
-</body>
+      <div class="container">
+        <p id="para">
+          We're sorry to see you go,but hey,no hard feelings,hopefully we will
+          see you back <br />one day.<br />
+          please fill in your email address in order to<br />
+          unsubscribed from the list.<br />You will receive an email to confirm
+          your<br />
+          unsubscription, just to make sure this is<br />
+          not an accident or somebody else tries to<br />unsubscribe you.
+        </p>
+      </div>
+      <div class="emailbox">
+        <lable><b>Email</b> <span id="star">*</span></lable>
+        <p><input type="email" id="email" size="40px" required /></p>
+      </div>
+
+      <div class="unsub">
+        <lable><b>Unsubscrib reason</b></lable>
+        <p>
+          <input
+            type="text"
+            id="unsubBox"
+            width="50px"
+            size="40px"
+            placeholder="Unsubscribe reason"
+          />
+        </p>
+      </div>
+      <div class="hr1"><hr /></div>
+      <button id="btn" type="submit">Unsubscrib</button>
+    </div>
+  </body>
 </html>
