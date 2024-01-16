@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,500&family=Itim&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@700&family=Roboto:ital,wght@0,300;1,300;1,500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,500&family=Itim&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@700&family=Roboto:ital,wght@0,300;1,300;1,500&family=Signika+Negative:wght@700&display=swap" rel="stylesheet">    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,500&family=Itim&family=Montserrat:wght@300&family=Playfair+Display&family=Poppins:wght@700&family=Roboto:ital,wght@0,300;1,300;1,500&family=Signika+Negative:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,500&family=Itim&family=Montserrat:wght@300&family=Poppins:wght@700&family=Roboto:ital,wght@0,300;1,300;1,500&family=Signika+Negative:wght@700&display=swap" rel="stylesheet">
+<title>Assignment CSS</title>
+    <style>
+        table{
+            padding: 5px;
+            border-style: hidden;
+            width:500px;
+            height: 600px;
+        }
+        th{
+            border: 0px solid black;
+            border-collapse: collapse;
+            /* font-family: 'IBM Plex Sans', sans-serif;
+            font-family: 'Itim', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif; */
+            /* font-family: 'IBM Plex Sans', sans-serif;
+            font-family: 'Itim', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Signika Negative', sans-serif; */
+
+            font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Itim', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+        }
+        #UseCase1{
+            background-color: rgb(57, 185, 57);
+            color: white;
+            text-align: center;
+            font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Itim', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+        }
+        #UseCase2{
+            background-color: rgb(247, 169, 24);
+            color: white;
+            text-align: center;
+            font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Itim', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+        }
+        #mongo{
+            color: black;
+        }
+        #db{
+            color: rgb(78, 75, 75);
+        }
+        #d1{
+            color: white;
+            background-color: rgb(57, 185, 57);
+            text-align: center;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-family: 'Itim', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Signika Negative', sans-serif;
+        }
+        #d2{
+            background-color: rgb(247, 169, 24);
+            color: white;
+            text-align: center;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-family: 'Itim', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Signika Negative', sans-serif;
+        }
+        #risk1{
+            color: white;
+            background-color: rgb(57, 185, 57);
+            text-align: center;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-family: 'Itim', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Signika Negative', sans-serif;
+        }
+        #risk2{
+            background-color: rgb(247, 169, 24);
+            color: white;
+            text-align: center;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-family: 'Itim', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Signika Negative', sans-serif;
+        }
+        #analysis1{
+            color: white;
+            background-color: rgb(57, 185, 57);
+            text-align: center;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-family: 'Itim', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Signika Negative', sans-serif;
+        }
+        #analysis2{
+            background-color: rgb(247, 169, 24);
+            color: white;
+            text-align: center;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-family: 'Itim', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Signika Negative', sans-serif;
+        }
+        #firstPara{
+            text-align: center;
+            margin: 5px;
+            
+        }
+        #secondPara{
+            text-align: center;
+            margin: 5px;
+        }
+        #thirdPara{
+            text-align: center;  
+            margin: 5px;
+        }
+        #lastPara{
+            text-align: center;
+            margin: 5px;
+          
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th><img src="Assets/Images/l2.jpeg" alt="MongoDB Logo" width="60" height="40"></th>
+                <th><img src="Assets/Images/mysql.png" alt="SQL Logo" width="80" height="70"></th>
+            </tr>
+
+                <tr>
+                    <th id="mongo">mongo<span id="db">DB</span></th>
+                    <th id=></th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="UseCase1">Use Case</td>
+                <td id="UseCase2">Use Case</td>
+            </tr>
+            <tr id="firstPara">
+                <td>Real-time analytics,Content <br>Management,IOT,mobile app</td>
+                <td>Legacy applications or applications <br>that require multi row<br> transactions.</td>
+            </tr>
+
+            <tr>
+                <td id="d1">Data Structure</td>
+                <td id="d2">Data Structure</td>
+            </tr>
+            <tr id="secondPara">
+                <td>No schema defination required</td>
+                <td>Structured data with clear schema</td>
+            </tr>
+
+            <tr>
+                <td id="risk1">Risk</td>
+                <td id="risk2">Risk</td>
+            </tr>
+            <tr id="thirdPara">
+                <td>Less risk of attack due to design</td>
+                <td>Risk of SQL injection attack</td>
+            </tr>
+
+            <tr>
+                <td id="analysis1">Analysis</td>
+                <td id="analysis2">Analysis</td>
+            </tr>
+            <tr id="lastPara">
+                <td>MangoDB worksgreat for<br> unstructure data and lends you<br> opportunity for growth</td>
+                <td>MySql is perfect when your data<br> is structured and you are in need a<br> traditional relationship database</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
